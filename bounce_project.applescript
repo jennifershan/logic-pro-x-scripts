@@ -1,14 +1,16 @@
 use scripting additions
 
 on run input
-	if (count input) = 2 then
+	if (count input) ≥ 2 then
 		bounce given mode:item 1 of input, saveas:item 2 of input
-	else
+	else if (count input) = 1 then
 		if {"-r", "-o"} contains item 1 of input then
 			bounce given mode:item 1 of input
 		else
 			bounce given saveas:item 1 of input
 		end if
+	else
+		bounce given mode:"-o"
 	end if
 end run
 
