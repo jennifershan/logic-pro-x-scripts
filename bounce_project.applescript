@@ -1,5 +1,3 @@
-use scripting additions
-
 on run input
 	if (count input) ≥ 2 then
 		bounce given mode:item 1 of input, saveas:item 2 of input
