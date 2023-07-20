@@ -1,5 +1,5 @@
 # logic-pro-x-scripts
-`osascript bounce_project.applescript [-r | -o] [save as]`\
+`osascript bounce_project.applescript [-r | -o] [save as file name]`\
 `-r` realtime\
 `-o` offline
 
