@@ -1,7 +1,9 @@
 # logic-pro-x-scripts
-`osascript bounce_project.applescript [-r | -o] [save as file name]`\
-`-r` realtime\
-`-o` offline
+## bounce_project.applescript
+`osascript bounce_project.applescript [-r|-o] <file name>`
+- `-r`: realtime
+- `-o`: offline
 
-`osascript rescan_plugin.applescript <manufacturer> <plugin> [-c]`\
-`-c` close "Audio Unit Validation Result" window
+## rescan_plugin.applescript
+`osascript rescan_plugin.applescript <manufacturer name> <plugin name> [-c]`
+- `-c`: close "Audio Unit Validation Result" window
